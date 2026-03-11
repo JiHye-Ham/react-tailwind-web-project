@@ -31,7 +31,7 @@ export const MyCart = () => {
         if(!auths.isLoggedIn){
            navigate("/");
         }
-    },[auths.isLoggedIn]);
+    },[auths.isLoggedIn, navigate]);
     return(
         <div className='min-h-[50vh] p-2 flex flex-col justify-center items-center gap-3 border border-gary-300 rounded'>
             <h1>장바구니 페이지</h1>
