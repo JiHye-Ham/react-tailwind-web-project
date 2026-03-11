@@ -6,28 +6,28 @@ export const Footer = () => {
                 <section>
                     <p className="mb-2 font-bold">상품</p>
                     <ul className="text-sm">
-                        <li><a href="">전자제품</a></li>
-                        <li><a href="">생활용품</a></li>
-                        <li><a href="">의류</a></li>
+                        <li><a href="/">전자제품</a></li>
+                        <li><a href="/">생활용품</a></li>
+                        <li><a href="/">의류</a></li>
                     </ul>
                 </section>
                 <section>
                     <p className="mb-2 font-bold">고객서비스</p>
                     <ul className="text-sm">
-                        <li><a href="">배송 정보</a></li>
-                        <li><a href="">반품/교환</a></li>
-                        <li><a href="">사이즈 가이드</a></li>
-                        <li><a href="">고객 센터</a></li>
+                        <li><a href="/">배송 정보</a></li>
+                        <li><a href="/">반품/교환</a></li>
+                        <li><a href="/">사이즈 가이드</a></li>
+                        <li><a href="/">고객 센터</a></li>
                     </ul>
                 </section>
                 <section>
                     <p className="mb-2 font-bold">회사정보</p>
                     <ul className="text-sm">
-                        <li><a href="">회사소개</a></li>
-                        <li><a href="">채용정보</a></li>
-                        <li><a href="">이용약관</a></li>
-                        <li><a href="">개인정보처리방침</a></li>
-                        <li><a href="">매장찾기</a></li>
+                        <li><a href="/">회사소개</a></li>
+                        <li><a href="/">채용정보</a></li>
+                        <li><a href="/">이용약관</a></li>
+                        <li><a href="/">개인정보처리방침</a></li>
+                        <li><a href="/">매장찾기</a></li>
                     </ul>
                 </section>    
             </div>

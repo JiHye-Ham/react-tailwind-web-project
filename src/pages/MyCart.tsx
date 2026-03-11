@@ -1,10 +1,8 @@
 
-import { useSelector, useDispatch } from 'react-redux'
-import type { AppDispatch } from '../app/store';
+import { useSelector } from 'react-redux'
 import type { Product } from '../types/Product';
 import type { Cart } from '../types/Cart';
 import { RootState } from "../app/store";
-import { add_item } from '../features/cart/cartSlice'
 import { useNavigate } from "react-router-dom";
 import { products as ProductData } from "../data/products"
 import { ProductCard } from "../components/ProductCard";
@@ -41,7 +39,7 @@ export const MyCart = () => {
                 {filteredCarts.map((item)=>{
                     return <ProductCard key={item.productID} product={item} mode="cart" />
                 })}
-                {filteredCarts.length == 0 && <p>장바구니에 담겨있는 상품이 없습니다.</p>}
+                {filteredCarts.length === 0 && <p>장바구니에 담겨있는 상품이 없습니다.</p>}
             </div>
             <p>총합 : {total}원</p>
         </div>

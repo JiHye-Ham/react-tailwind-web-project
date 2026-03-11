@@ -66,7 +66,6 @@ export const ProductCard = ({product, mode="basic"}:ProductCardProps) => {
                 <img className="w-full h-full object-cover"
                 src={product.image} alt="" />
             </div>
-            {/*아래 css 적용 필요함 */}
             {mode==="basic" &&
             <div className="p-2 flex flex-col items-center">
                 <dl className="self-start">

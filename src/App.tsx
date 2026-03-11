@@ -1,6 +1,5 @@
 import React, {Suspense} from 'react';
-import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import './App.css';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';

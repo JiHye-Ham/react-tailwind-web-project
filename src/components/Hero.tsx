@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react"
-import { transform } from "typescript"
+import { useState } from "react"
 
 
 export const Hero = () => {
