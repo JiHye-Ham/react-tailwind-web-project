@@ -3,13 +3,13 @@
 리액트, TypeScript, Tailwind를 사용하여 만든 웹 쇼핑몰 프로젝트입니다.<br />
 배포 사이트 : https://react-tailwind-web-project.vercel.app/
 
-# 주요기능
-
-모달창, 로그인, 장바구니, 이미지 슬라이드, 반응형 레이아웃<br />
-
 # 기술 스택
 
 HTML5, React, TypeScript, Tailwind, Router, Redux Toolkit, LocalStorage, react-hook-form
+
+# 주요기능
+
+모달창, 로그인, 장바구니, 이미지 슬라이드, 반응형 레이아웃<br />
 
 
 # 폴더 구조
